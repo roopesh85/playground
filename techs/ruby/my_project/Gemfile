@@ -21,10 +21,10 @@ gem 'dm-core'
 # Test requirements
 gem 'mocha', :group => "test"
 gem 'riot', :group => "test"
-gem 'rack-test', :group => "test", :require => "rack/test"
+gem 'rack-test', '>= 0.6.2', :group => "test", :require => "rack/test"
 
 # Padrino Stable Gem
-gem 'padrino', '0.10.6'
+gem 'padrino', '0.12.9'
 
 # Or Padrino Edge
 # gem 'padrino', :git => 'git://github.com/padrino/padrino-framework.git'
